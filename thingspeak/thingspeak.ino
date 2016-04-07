@@ -3,8 +3,8 @@
 #include <ESP8266WiFi.h>
 
 // WiFi settings
-char ssid[] = "NETGEAR01";
-char pass[] = "sweetfire480";
+char ssid[] = "ssid";
+char pass[] = "wachtwoord";
 int status = WL_IDLE_STATUS;
 WiFiClient  client;
 
