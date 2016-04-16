@@ -1,0 +1,11 @@
+body {
+	font-family: sans-serif;
+	width: 10000px;
+}
+
+.bar {
+	width: 30px;
+	background: red;
+	display: inline-block;
+	margin-left: 10px;
+}

@@ -3,8 +3,8 @@
 #include <ESP8266WiFi.h>
 
 // WiFi settings
-char ssid[] = "ssid";
-char pass[] = "wachtwoord";
+char ssid[] = "iPhone van R";
+char pass[] = "wortels18";
 int status = WL_IDLE_STATUS;
 WiFiClient  client;
 
