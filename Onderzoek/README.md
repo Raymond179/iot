@@ -2,15 +2,15 @@
 ## What kinds of hardware are there in the world of Internet of things and in what situations are they useful?
 In the world of Internet of Things there are a number of different kinds of hardware. They all have different features, properties and purposes. In this research article i want to compare these IoT platforms. I am going to point out the features and in what situations they're useful. Because there is too many hardware to research, i'm going to review the following IoT platforms: <br/>
 
-- NodeMCU
 - FT232RL FTDI with ESP8266
 - Spark core
+- NodeMCU
 - ESP32
 
 ### FT232RL FTDI with ESP8266
 The ESP8266 is a WiFi module/chip. It doesn't have a USB connection which means you need a processor in order to get power. For the installation i'm going to use the FT232RL FTDI, a TTL to USB interface. 
 
-![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp-overzicht.png)
+![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp-overzicht.jpg)
 
 ###### FT232RL FTDI
 ![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/ttl.png)
@@ -25,15 +25,15 @@ As you can see the ESP8266 has two GPIO pins. GPIO pins can be configured to be 
 ###### Installation
 Let's install. But wait, there's a problem. The ESP8266 is not 5v tolerant as the FT232RL is. So we need some kind of voltage level shifter. Or, we upload the code to the FT232RL via USB, and connect the ESP8266 to a 3.3v battery. This way there are two power sources, one on 3.3v and the other one on 5v.
 
-![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp-5v.png)
+![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp-5v.jpg)
 
 To be sure the ESP8266 works, i tested it without the FT232RL. If you connected it the right way, you should see a red light. This means the ESP8266 is ready.
 
-![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp-3v.png)
+![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp-3v.jpg)
 
 To get the installation ready to upload code, we need to know how to reset the ESP8266. We can do this by powering on the FT232RL when the DTR of the FT232RL is connected to the RST of the ESP8266. You can see the blue light blink on the ESP8266.
 
-![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp-reset.png)
+![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp-reset.jpg)
 
 This is the point where i got stuck. When i uploaded the code, i got the error:
 
@@ -95,7 +95,7 @@ The advantage of the NodeMCU is that it's really powerful for it's low cost. A d
 ### ESP32
 The ESP8266 is the current hype at the moment within the IoT community. That is because of it's low cost and wide availability. The ESP8266 chip is made by the Chinese company 'Espressif' which is currently working on a new, better, more expensive and much more powerful SoC (System on a Chip): the ESP32. It is still in development and not all of the details have been announced yet.
 
-![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp32.jpg)
+![alt tag](https://github.com/RaymondKorrel/iot/blob/master/Onderzoek/img/esp32.png)
 
 The ESP32 has bluetooth capability. Because of this it will be able to connect to beacons and other bluetooth devices. The design is much bigger than it's predecessor and will include a lot more I/O's:
 
