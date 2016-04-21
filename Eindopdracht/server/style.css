@@ -1,0 +1,56 @@
+body {
+	font-family: sans-serif;
+	background: #1C2222;
+    color: white;
+    fill: white;
+}
+
+path {
+	stroke: #3B8686;
+	stroke-width: 1;
+	fill: none;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+.x.axis line {
+  stroke: #3A3A3A;
+}
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+.x.axis path {
+  display: none;
+}
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: white;
+}
+
+.x .tick text {
+	text-anchor: end !important;
+    transform: rotate(-70deg);
+}
+
+.buzzer {
+	text-align: center;
+	margin-top: 70px;
+}
+
+button.on {
+	background: #3B8686;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+button.off {
+	background: white;
+    border: none;
+    padding: 10px;
+}
+
+h1 {
+	text-align: center;
+}
