@@ -8,21 +8,21 @@ In the world of Internet of Things there are different types of hardware. They a
 - ESP32
 
 ## Table of contents
-•	FT232RL FTDI with ESP8266
-o	FT232RL FTDI
-o	ESP8266
-o	Installation
-o	Conclusion
-•	Spark core
-o	Installation
-o	Conclusion
-•	NodeMCU
-o	Installation
-o	Conclusion
-•	ESP32
-o	Installation
-o	Conclusion
-•	Overall conclusion
+- FT232RL FTDI with ESP8266
+	- FT232RL FTDI
+	- ESP8266
+	- Installation
+	- Conclusion
+- Spark core
+	- Installation
+	- Conclusion
+- NodeMCU
+	- Installation
+	- Conclusion
+- ESP32
+	- Installation
+	- Conclusion
+- Overall conclusion
 
 ### FT232RL FTDI with ESP8266
 The FT232RL FTDI is processing unit which in this installation will work together with the ESP8266, a Wi-Fi module/chip.
@@ -141,9 +141,9 @@ This picture shows an overview of the ESP32 hardware and pin layout.
 
 The ESP32 even has Bluetooth capability. Because of this it will be able to connect to beacons and other Bluetooth devices. The design is much bigger than its predecessor (ESP8266) and will include a lot more input and output ports, including:
 
-•	10x Capacitive Touch Inputs
-•	2x 8-Bit Digital to Analog Converters (DACs) 2x I2C, 4x SPI, and 2x UART Interfaces
-•	16x 12-Bit Analog to Digital Converters (ADC’s)
+- 10x Capacitive Touch Inputs
+- 2x 8-Bit Digital to Analog Converters (DACs) 2x I2C, 4x SPI, and 2x UART Interfaces
+- 16x 12-Bit Analog to Digital Converters (ADC’s)
 
 The ESP32 is powered by dual Tensilica CPUs clocked at 160MHz. This means that it is far more powerful than the older ESP8266, which is powered by one Tensilica CPU clocked at 80Mhz. The ESP32 also has more RAM memory then the ESP8266. It increased from 96kB to 416kB.
 
@@ -160,10 +160,10 @@ http://www.allaboutcircuits.com/news/esp32-a-worth-successor-to-the-esp8266/
 ## Overall conclusion
 In this article I decribed four different IoT hardware devices:
 
-•	FT232RL FTDI with ESP8266
-•	Spark core
-•	NodeMCU
-•	ESP32
+- FT232RL FTDI with ESP8266
+- Spark core
+- NodeMCU
+- ESP32
 
 All of these devices has their own features for use in the world of Internet of Things.
 Features which have been tested and researched are: ease of installation and effectiveness and ease of use.<br/>
