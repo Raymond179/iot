@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ArduinoJson.h>
 
-const char* ssid     = "NETGEAR01";  
-const char* password = "";
+const char* ssid     = "iPhone van R";  
+const char* password = "wortels18";
 
 const char* host     = "www.raymondkorrel.nl"; // Your domain  
 String path          = "/iot/light.json";  
